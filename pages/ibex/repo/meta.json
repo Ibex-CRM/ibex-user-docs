@@ -1,0 +1,8 @@
+{
+"public": "/public",
+"src": "/src",
+"npmrc": ".npmrc",
+"jsconfig": "jsconfig",
+"semantic": "semantic",
+"test-static": "test_static"
+}

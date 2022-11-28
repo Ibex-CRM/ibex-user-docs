@@ -1,7 +1,7 @@
 export default {
   github: 'https://github.com/Ibex-CRM/Ibex-docs',
   docsRepositoryBase: 'https://github.com/Ibex-CRM/Ibex-docs/blob/master',
-  titleSuffix: ' – Ibex Docs',
+  titleSuffix: ' – Goat Dev Docs',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Goat Dev Docs</span>

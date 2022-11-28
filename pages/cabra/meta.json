@@ -1,13 +1,3 @@
 {
-  "github": "Github Workflows",
-  "next": ".next",
-  "npm": "npm",
-  "out": "out",
-  "pages": "pages/docs",
-  "public": "public",
-  "sd-input": "sd-input",
-  "utils": "utils",
-  "next.config.js": "next.config.js",
-  "sd.config.js": "sd.config.js",
-  "theme.config.js": "theme.config.js"
+  "about": "About Cabra"
 }
