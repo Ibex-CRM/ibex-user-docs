@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /Ibex-docs
+      NEXT_PUBLIC_BASE_PATH: /goat-dev-docs
 
     strategy:
       matrix:
