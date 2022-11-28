@@ -1,0 +1,41 @@
+explain the folder structure of the section
+  - what each folder and file is for
+  - how do they connects
+  - how to add new files
+
+**glosary of terms:**
+- CLC: Campaign List Channel
+
+### Folder structure:
+- **src/_components/Roster:**  _Contains the roster of section_
+  - **/_concerns:** _helper functions, mutations, queries, etc._
+  - **/Board:** _contains the board itself, filters, list dropdown and search bar_
+    - **/Board/AppliedFilters.js:** _contains the list of filters applied that appears on the top of the board when filters are applied_
+    - **/Board/Card.js:** _contains the CLC card, a draggable item within a board lane_
+    - **/Board/index.js:** _board component point of entry, contains most of the logic of the board_
+    - **/Board/Options.js:** _contains all the filters & search bar logic_
+    <br/>
+  - **/ChannelAddSearch:** contains the channel add search of the section
+    - **/ChannelAddSearch/Card.js:**
+    - **/ChannelAddSearch/Hits.js:**
+    - **/ChannelAddSearch/index.js:**
+    <br/>
+  - **/ExclusionBoard:** contains the exclusion board of the section. Not really a board(with lanes), more a cork board with cards for each excluded influencer
+    - **/ExclusionBoard/Card.js:**
+    - **/ExclusionBoard/index.js:**
+    <br/>
+  - **/Sidebar:** contains the sidebar of the section
+    - **/Sidebar/_StyledComponents.js:** contains shared styled components for the sidebar
+    - **/Sidebar/AboutSection.js:**
+    - **/Sidebar/BioSection.js:**
+    - **/Sidebar/CampaignSection.js:**
+    - **/Sidebar/DemographicsSection.js:**
+    - **/Sidebar/index.js:**
+    - **/Sidebar/MessagesSection.js:**
+    - **/Sidebar/TagsSection.js:**
+    - **/Sidebar/TraitsSection.js:**
+    <br/>
+  - **_StyleComponents.js:** contains shared styled components for the section
+  - **BoardWrapper.js:** contains the wrapper for the board
+  - **index.js:** contains the main component for the section
+  - **OutreachBoard.js:** contains the outreach board

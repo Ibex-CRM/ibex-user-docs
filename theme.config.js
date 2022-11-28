@@ -4,15 +4,15 @@ export default {
   titleSuffix: ' – Ibex Docs',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Ibex Documentation</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Ibex Docs</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-      The Goat Agency's Ibex CRM Documentation
+      The Goat Agency's CRM Documentation
       </span>
     </>
   ),
   head: (
     <>
-      <title>Cabra</title>
+      <title>Ibex Docs</title>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
