@@ -1,5 +1,6 @@
 {
+  "about": "About Cabra NPM",
   "index": "Index",
-  "components": "Components",
-  "Styles": "Styles"
+  "components": "/components",
+  "styles": "/styles"
 }

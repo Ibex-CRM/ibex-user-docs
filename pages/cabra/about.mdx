@@ -1,1 +1,26 @@
 # What is going on here...
+
+Cabra is the new design system that is being developed by _**The Goat Agency's Dev Team**_. It is a collection of components and styles.
+It is a living, breathing system that is constantly being updated and improved. It is a work in progress, and we are always looking for ways to improve it.
+
+## Why is it called Cabra?
+Cabra means Goat in spanish, need I say more?
+
+## Code
+The cabra repository is _"divided"_ into two parts, the `NPM` folder and everything else. The `NPM` folder contains the styles and React components of the Cabra system.
+And it is our NPM package, so if you need to publish a new version of our _**Cabra**_ NPM package, make sure that your terminal is working from this directory.
+
+The rest of the repository is the documentation website, which is built using [Nextra](https://nextra.vercel.app/). The documentation website is built using ([MDX](/features/mdx)) and the components and styles from the `NPM` folder.
+([MDX](/features/mdx)) accepts Markdown and React, so just import the components you need and use them in your markdown files.
+
+## How to use Cabra
+When creating a new component you should create a documentation page for it at the same time and import the component there. This way you can see how the component looks in real time when working on it and creates the documentation at the same time.
+
+When you are done, simply write a few more lines about using the component in docs, import/export your brand new component to the **index.js** file and you are done.
+
+Lastly don't forget to publish the new version of the NPM package. You can do this by running `npm version <new-version>` and then `npm publish` from the `NPM` folder.
+
+```bash
+npm version 1.0.5
+npm publish
+```
