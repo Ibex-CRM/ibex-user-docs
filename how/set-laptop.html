@@ -1,0 +1,311 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><script>!function(){try {var d=document.documentElement.classList;d.remove('light','dark');var e=localStorage.getItem('theme');if(!e)return localStorage.setItem('theme','light'),d.add('light');if("system"===e){var t="(prefers-color-scheme: dark)",m=window.matchMedia(t);m.media!==t||m.matches?d.add('dark'):d.add('light')}else d.add(e)}catch(e){}}()</script><link rel="stylesheet" href="https://rsms.me/inter/inter.css"/><style>html{font-family:Inter,sans-serif}@supports(font-variation-settings:normal){html{font-family:'Inter var',sans-serif}}</style><title>Goat Dev Docs</title><meta name="msapplication-TileColor" content="#ffffff"/><meta name="theme-color" content="#ffffff"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="Content-Language" content="en"/><meta name="description" content="Goat Dev Docs: The Goat Agency&#x27;s Dev Documentation"/><meta name="og:description" content="Goat Dev Docs: The Goat Agency&#x27;s Dev Documentation"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://res.cloudinary.com/montycat/image/upload/v1557750788/Goat/goat_logo.png"/><meta name="og:title" content="Goat Dev Docs: The Goat Agency&#x27;s Dev Documentation"/><meta name="og:image" content="https://res.cloudinary.com/montycat/image/upload/v1557750788/Goat/goat_logo.png"/><meta name="apple-mobile-web-app-title" content="Cabra"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"/><link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/><link rel="icon" href="data:image/svg+xml;utf8,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 100 100&#x27;&gt;&lt;text x=&#x27;50&#x27; y=&#x27;.9em&#x27; font-size=&#x27;90&#x27; text-anchor=&#x27;middle&#x27;&gt;🐐&lt;/text&gt;&lt;style&gt;text{font-family:system-ui,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;fill:black}@media(prefers-color-scheme:dark){text{fill:white}}&lt;/style&gt;&lt;/svg&gt;"/><meta name="next-head-count" content="23"/><link rel="preload" href="/goat-dev-docs/_next/static/css/adb731b8093ad823.css" as="style"/><link rel="stylesheet" href="/goat-dev-docs/_next/static/css/adb731b8093ad823.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/goat-dev-docs/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/goat-dev-docs/_next/static/chunks/webpack-6376843f6c6d30f1.js" defer=""></script><script src="/goat-dev-docs/_next/static/chunks/framework-5f4595e5518b5600.js" defer=""></script><script src="/goat-dev-docs/_next/static/chunks/main-7902f3754d206b33.js" defer=""></script><script src="/goat-dev-docs/_next/static/chunks/pages/_app-08cd5c3910b48d79.js" defer=""></script><script src="/goat-dev-docs/_next/static/chunks/511-fa567c6f97414d6c.js" defer=""></script><script src="/goat-dev-docs/_next/static/chunks/pages/how/set-laptop-4dbb48285057d4a9.js" defer=""></script><script src="/goat-dev-docs/_next/static/QdK7a_iT10DovYx37JdED/_buildManifest.js" defer=""></script><script src="/goat-dev-docs/_next/static/QdK7a_iT10DovYx37JdED/_ssgManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""><div class="nextra-container main-container flex flex-col"><nav class="flex items-center bg-white z-20 fixed top-0 left-0 right-0 h-16 border-b border-gray-200 px-6 dark:bg-dark dark:border-gray-900 bg-opacity-[.97] dark:bg-opacity-100"><div class="w-full flex items-center mr-2"><a class="no-underline text-current inline-flex items-center hover:opacity-75" href="/"><span class="mr-2 font-extrabold hidden md:inline">Goat Dev Docs</span><span class="text-gray-600 font-normal hidden md:inline">The Goat Agency&#x27;s Dev Documentation</span></a></div><div class="flex-1"><div class="hidden md:inline-block mr-2"><div class="nextra-search relative w-full md:w-64"><input type="search" class="appearance-none border rounded py-2 px-3 leading-tight focus:outline-none focus:ring w-full" placeholder="Search (&quot;/&quot; to focus)"/></div></div></div><a class="text-current p-2 cursor-pointer" tabindex="0"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision"></svg></a><a class="text-current p-2" href="https://github.com/Ibex-CRM/Ibex-docs" target="_blank"><svg height="24" viewBox="2 2 20 20" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z" fill="currentColor"></path></svg></a><button class="block md:hidden p-2"><svg fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button><div class="-mr-2"></div></nav><div class="flex flex-1 h-full"><aside class="fixed h-screen bg-white dark:bg-dark flex-shrink-0 w-full md:w-64 md:sticky z-20 hidden md:block" style="top:4rem;height:calc(100vh - 4rem)"><div class="sidebar border-gray-200 dark:border-gray-900 w-full p-4 pb-40 md:pb-16 h-full overflow-y-auto"><div class="mb-4 block md:hidden"><div class="nextra-search relative w-full md:w-64"><input type="search" class="appearance-none border rounded py-2 px-3 leading-tight focus:outline-none focus:ring w-full" placeholder="Search (&quot;/&quot; to focus)"/></div></div><div class="hidden md:block"><ul><li class=""><a href="/">Introduction</a></li><li class="active"><button>How to ...</button><div style="display:initial"><ul><li class=""><a href="/how/write-docs">Write docs</a></li><li class="active"><a href="/how/set-laptop">Set your laptop</a></li></ul></div></li><li class="active"><button>Ibex</button><div style="display:initial"><ul><li class=""><a href="/ibex/about">About Ibex</a></li><li class="active"><button>Repo</button><div style="display:initial"><ul><li class=""><a href="/ibex/repo/public">/public</a></li><li class="active"><button>/src</button><div style="display:initial"><ul><li class="active"><button>/_components</button><div style="display:initial"><ul><li class="active"><button>Roster</button><div style="display:initial"><ul><li class=""><a href="/ibex/repo/src/components/roster/about">About Roster</a></li></ul></div></li></ul></div></li><li class=""><a href="/ibex/repo/src/api">APIConfig</a></li></ul></div></li><li class=""><a href="/ibex/repo/npmrc">.npmrc</a></li><li class=""><a href="/ibex/repo/jsconfig">jsconfig</a></li><li class=""><a href="/ibex/repo/semantic">semantic</a></li><li class=""><a href="/ibex/repo/test-static">test_static</a></li></ul></div></li></ul></div></li><li class="active"><button>Cabra</button><div style="display:initial"><ul><li class=""><a href="/cabra/about">About Cabra</a></li><li class="active"><button>Repo</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/github">/.github/workflows</a></li><li class=""><a href="/cabra/repo/next">/.next</a></li><li class="active"><button>/npm</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/npm/about">About Cabra NPM</a></li><li class=""><a href="/cabra/repo/npm">Index</a></li><li class="active"><button>/components</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/npm/components/components">Components</a></li></ul></div></li><li class="active"><button>/styles</button><div style="display:initial"><ul><li class="active"><button>/js</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/npm/styles/js/variables">variables</a></li></ul></div></li></ul></div></li></ul></div></li><li class=""><a href="/cabra/repo/out">/out</a></li><li class="active"><button>/pages/docs</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/pages/components">Components</a></li><li class=""><a href="/cabra/repo/pages/tokens">Tokens</a></li></ul></div></li><li class=""><a href="/cabra/repo/public">/public</a></li><li class=""><a href="/cabra/repo/sd-input">/sd-input</a></li><li class=""><a href="/cabra/repo/utils">/utils</a></li><li class=""><a href="/cabra/repo/next-config">next.config</a></li><li class=""><a href="/cabra/repo/sd-config">sd.config</a></li><li class=""><a href="/cabra/repo/theme-config">theme.config</a></li></ul></div></li></ul></div></li></ul></div><div class="md:hidden"><ul><li class=""><a href="/">Introduction</a></li><li class="active"><button>How to ...</button><div style="display:initial"><ul><li class=""><a href="/how/write-docs">Write docs</a></li><li class="active"><a href="/how/set-laptop">Set your laptop</a></li></ul></div></li><li class="active"><button>Ibex</button><div style="display:initial"><ul><li class=""><a href="/ibex/about">About Ibex</a></li><li class="active"><button>Repo</button><div style="display:initial"><ul><li class=""><a href="/ibex/repo/public">/public</a></li><li class="active"><button>/src</button><div style="display:initial"><ul><li class="active"><button>/_components</button><div style="display:initial"><ul><li class="active"><button>Roster</button><div style="display:initial"><ul><li class=""><a href="/ibex/repo/src/components/roster/about">About Roster</a></li></ul></div></li></ul></div></li><li class=""><a href="/ibex/repo/src/api">APIConfig</a></li></ul></div></li><li class=""><a href="/ibex/repo/npmrc">.npmrc</a></li><li class=""><a href="/ibex/repo/jsconfig">jsconfig</a></li><li class=""><a href="/ibex/repo/semantic">semantic</a></li><li class=""><a href="/ibex/repo/test-static">test_static</a></li></ul></div></li></ul></div></li><li class="active"><button>Cabra</button><div style="display:initial"><ul><li class=""><a href="/cabra/about">About Cabra</a></li><li class="active"><button>Repo</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/github">/.github/workflows</a></li><li class=""><a href="/cabra/repo/next">/.next</a></li><li class="active"><button>/npm</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/npm/about">About Cabra NPM</a></li><li class=""><a href="/cabra/repo/npm">Index</a></li><li class="active"><button>/components</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/npm/components/components">Components</a></li></ul></div></li><li class="active"><button>/styles</button><div style="display:initial"><ul><li class="active"><button>/js</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/npm/styles/js/variables">variables</a></li></ul></div></li></ul></div></li></ul></div></li><li class=""><a href="/cabra/repo/out">/out</a></li><li class="active"><button>/pages/docs</button><div style="display:initial"><ul><li class=""><a href="/cabra/repo/pages/components">Components</a></li><li class=""><a href="/cabra/repo/pages/tokens">Tokens</a></li></ul></div></li><li class=""><a href="/cabra/repo/public">/public</a></li><li class=""><a href="/cabra/repo/sd-input">/sd-input</a></li><li class=""><a href="/cabra/repo/utils">/utils</a></li><li class=""><a href="/cabra/repo/next-config">next.config</a></li><li class=""><a href="/cabra/repo/sd-config">sd.config</a></li><li class=""><a href="/cabra/repo/theme-config">theme.config</a></li></ul></div></li></ul></div></li></ul></div></div></aside><div id="reach-skip-nav" data-reach-skip-nav-content=""></div><article class="docs-container relative pt-16 pb-16 px-6 md:px-8 w-full max-w-full flex min-w-0"><main class="max-w-screen-md mx-auto pt-4 z-10 min-w-0"><h1>Setting up your Laptop</h1>
+<h2>Before we start</h2>
+<p>We will assume that you are using a MacOs powered computer and that you have a GitHub account (time to create one if you don’t). If you are not using MacOs, we have added links to the documentation necessary at the end of each section.</p>
+<p>This guide is designed to be followed step by step and is better not to skip steps if you are setting a new computer from scratch.</p>
+<p>If you spot any errors or out of date information, please inform the team.</p>
+<h2>Command Line Tools</h2>
+<p>Open a new terminal, copy-paste the following command and hit <code>Enter</code>:</p>
+<pre><code class="language-bash">xcode-select --install
+</code></pre>
+<p>If you receive the following message you can just skip the next steps</p>
+<pre><code class="language-bash"># command line tools are already installed, use &quot;Software Update&quot; to install updates
+</code></pre>
+<p>Otherwise, it will open a window asking you if you want to install some software: click on &quot;Install&quot; and wait:</p>
+<p><img src="https://github.com/lewagon/setup/raw/master/images/macos_xcode_select_install.png" alt="https://github.com/lewagon/setup/raw/master/images/macos_xcode_select_install.png"/></p>
+<p>✔️ If you see the message &quot;The software was installed&quot; then all good 👍</p>
+<p>❌ If the command <code>xcode-select --install</code> fails try again: sometimes the Apple servers are overloaded.</p>
+<p>❌ If you see the message &quot;Xcode is not currently available from the Software Update server&quot;, you need to update the software update catalog:</p>
+<pre><code class="language-bash">sudo softwareupdate --clear-catalog
+</code></pre>
+<p>Once this is done, you can try to install again</p>
+<h2>Homebrew</h2>
+<p><a href="http://brew.sh/">Homebrew</a> is a package manager: it&#x27;s a software used to install other software from the command line. Let&#x27;s install it!</p>
+<p>Open a terminal and run:</p>
+<pre><code class="language-bash">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+</code></pre>
+<p>This will ask for your confirmation (hit <code>Enter</code>) and your <strong>macOS user account password</strong> (the one you use to <a href="https://support.apple.com/en-gb/HT202860">log in</a> when you reboot your Macbook).</p>
+<p>⚠️ When you type your password, nothing will show up on the screen, <strong>that&#x27;s normal</strong>. This is a security feature to mask not only your password as a whole but also its length. Just type your password and when you&#x27;re done, press <code>Enter</code>.</p>
+<p>⚠️ If you see this warning 👇, run the two commands in the <code>Next steps</code> section to add Homebrew to your PATH:</p>
+<p><img src="https://github.com/lewagon/setup/raw/master/images/macos_homebrew_warning.png" alt="https://github.com/lewagon/setup/raw/master/images/macos_homebrew_warning.png"/></p>
+<pre><code class="language-bash"># ⚠️ Only execute these commands if you saw this warning ☝
+echo &#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27; &gt;&gt; ~/.zprofile
+eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;
+</code></pre>
+<p>If you already have Homebrew, it will tell you so, that&#x27;s fine, go on.</p>
+<p>Then install some useful software:</p>
+<pre><code>brew update
+</code></pre>
+<p>If you get a <code>/usr/local must be writable</code> error, just run this:</p>
+<pre><code class="language-bash">sudo chown -R $USER:admin /usr/local
+brew update
+</code></pre>
+<p>Proceed running the following in the terminal to install some useful stuff:</p>
+<pre><code class="language-bash">brew upgrade git || brew install git
+brew upgrade gh || brew install gh
+brew upgrade wget || brew install wget
+brew upgrade imagemagick || brew install imagemagick
+brew upgrade jq || brew install jq
+brew upgrade openssl || brew install openssl
+brew upgrade gsl || brew install gsl
+</code></pre>
+<p>For more info on Homebrew or what you just installed:</p>
+<p><a href="https://brew.sh/">Homebrew</a></p>
+<p><a href="https://git-scm.com/doc">Documentation</a></p>
+<p><a href="https://cli.github.com/manual/index">Manual</a></p>
+<p><a href="https://www.gnu.org/software/wget/manual/wget.html">GNU Wget 1.21.1-dirty Manual</a></p>
+<p><a href="https://www.openssl.org/">/index.html</a></p>
+<p><a href="https://imagemagick.org/index.php">ImageMagick</a></p>
+<h2>Visual Studio Code</h2>
+<p>Let&#x27;s install <a href="https://code.visualstudio.com/">Visual Studio Code</a> text editor.</p>
+<pre><code class="language-bash">brew install --cask visual-studio-code
+</code></pre>
+<p>Then launch VS Code by running the following command in your terminal:</p>
+<pre><code class="language-bash">code
+</code></pre>
+<p>For more info on VScode:</p>
+<p><a href="https://code.visualstudio.com/docs">Documentation for Visual Studio Code</a></p>
+<h3>VScode Extensions</h3>
+<p>There is a few extensions that you will need to have installed to try and keep our code formatted and help us work together. Let&#x27;s install some useful extensions to VS Code.</p>
+<pre><code class="language-bash">[code --install-extension aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+[code --install-extension Gruntfuggly.todo-tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+[code --install-extension MS-vsliveshare.vsliveshare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+[code --install-extension MS-vsliveshare.vsliveshare-pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
+[code --install-extension dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+[code --install-extension esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[code --install-extension rebornix.ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
+</code></pre>
+<p>The following are optional, you can test them and decided for yourself:</p>
+<pre><code class="language-bash">[code --install-extension burkeholland.simple-react-snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
+[code --install-extension ms-vscode.sublime-keybindings](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+[code --install-extension emmanuelbeziat.vscode-great-icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
+[code --install-extension github.github-vscode-theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+[code --install-extension Rubymaniac.vscode-paste-and-indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)
+[code --install-extension johnpapa.vscode-peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+</code></pre>
+<p>For more information on any of the VScode extensions you just installed click on the names above to see more.</p>
+<h3>Live Share Configuration</h3>
+<p><a href="https://visualstudio.microsoft.com/services/live-share/">Visual Studio Live Share</a> is a VS Code extension which allows you to share the code in your text editor for debugging and pair-programming: let&#x27;s set it up!</p>
+<p>Launch VS Code from your terminal by typing <code>code</code> and pressing <code>Enter</code>.</p>
+<p>Click on the little arrow at the bottom of the left bar 👇</p>
+<p><img src="https://github.com/lewagon/setup/raw/master/images/vscode_live_share.png" alt="https://github.com/lewagon/setup/raw/master/images/vscode_live_share.png"/></p>
+<ul>
+<li>Click on the &quot;Share&quot; button, then on &quot;GitHub (Sign in using GitHub account)&quot;.</li>
+<li>A popup appears asking you to sign in with GitHub: click on &quot;Allow&quot;.</li>
+<li>You are redirected to a GitHub page in you browser asking you to authorize Visual Studio Code: click on &quot;Continue&quot; then &quot;Authorize github&quot;.</li>
+<li>VS Code may display additional pop-ups: close them by clicking &quot;OK&quot;.</li>
+</ul>
+<p>That&#x27;s it, you&#x27;re good to go!</p>
+<p>For more info on Live Share:</p>
+<p><a href="https://github.com/MicrosoftDocs/live-share">GitHub - MicrosoftDocs/live-share: Real-time collaborative development from the comfort of your favorite tools</a></p>
+<h3>ESLint &amp; Prettier Settings</h3>
+<p>This is the VScode configuration that the team follows:</p>
+<p>ESLint settings</p>
+<pre><code class="language-json">{
+  &quot;parser&quot;: &quot;babel-eslint&quot;,
+  &quot;extends&quot;: [
+    &quot;standard&quot;,
+    &quot;standard-react&quot;
+  ],
+  &quot;env&quot;: {
+    &quot;es6&quot;: true
+  },
+  &quot;plugins&quot;: [
+    &quot;react&quot;
+  ],
+  &quot;parserOptions&quot;: {
+    &quot;sourceType&quot;: &quot;module&quot;
+  },
+  &quot;rules&quot;: {
+    // don&#x27;t force es6 functions to include space before paren
+    &quot;space-before-function-paren&quot;: 0,
+    // allow specifying true explicitly for boolean props
+    &quot;react/jsx-boolean-value&quot;: 0,
+    &quot;react/prop-types&quot;: 0
+  }
+}
+</code></pre>
+<p>Prettier settings</p>
+<pre><code class="language-json">{
+  &quot;semi&quot;: false,
+  &quot;trailingComma&quot;: &quot;none&quot;,
+  &quot;printWidth&quot;: 120,
+  &quot;tabWidth&quot;: 2,
+  &quot;useTabs&quot;: false,
+  &quot;singleQuote&quot;: true,
+  &quot;jsxSingleQuote&quot;: true
+}
+</code></pre>
+<h2>Oh-my-zsh</h2>
+<p>Let&#x27;s install the <code>zsh</code> plugin <a href="https://ohmyz.sh/">Oh My Zsh</a>.</p>
+<p>In a terminal execute the following command:</p>
+<pre><code class="language-bash">sh -c &quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;
+</code></pre>
+<p>If asked &quot;Do you want to change your default shell to zsh?&quot;, press <code>Y</code></p>
+<p>At the end your terminal should look like this:</p>
+<p><img src="https://github.com/lewagon/setup/raw/master/images/oh_my_zsh.png" alt="https://github.com/lewagon/setup/raw/master/images/oh_my_zsh.png"/></p>
+<p>For more info on Oh-my-zsh:</p>
+<p><a href="https://ohmyz.sh/">Oh My Zsh - a delightful &amp; open source framework for Zsh</a></p>
+<h2>GitHub CLI</h2>
+<p>CLI is the acronym of <a href="https://en.wikipedia.org/wiki/Command-line_interface">Command-line Interface</a>.</p>
+<p>In this section, we will use <a href="https://cli.github.com/">GitHub CLI</a> to interact with GitHub directly from the terminal.</p>
+<p>It should already be installed on your computer from the previous commands.</p>
+<p>First in order to <strong>login</strong>, copy-paste the following command in your terminal:</p>
+<p>⚠️ <strong>DO NOT edit the <code>email</code></strong></p>
+<pre><code class="language-bash">gh auth login -s &#x27;user:email&#x27; -w
+</code></pre>
+<p>gh will ask you few questions:</p>
+<p><code>What is your preferred protocol for Git operations?</code> With the arrows, choose <code>SSH</code> and press <code>Enter</code>. SSH is a protocol to log in using SSH keys instead of the well known username/password pair.</p>
+<p><code>Generate a new SSH key to add to your GitHub account?</code> Press <code>Enter</code> to ask gh to generate the SSH keys for you.</p>
+<p>If you already have SSH keys, you will see instead <code>Upload your SSH public key to your GitHub account?</code> With the arrows, select your public key file path and press <code>Enter</code>.</p>
+<p><code>Enter a passphrase for your new SSH key (Optional)</code>. Type something you want and that you&#x27;ll remember. It&#x27;s a password to protect your private key stored on your hard drive. Then press <code>Enter</code>.</p>
+<p>⚠️ When you type your passphrase, nothing will show up on the screen, <strong>that&#x27;s normal</strong>. This is a security feature to mask not only your passphrase as a whole but also its length. Just type your passphrase and when you&#x27;re done, press <code>Enter</code>.</p>
+<p>You will then get the following output:</p>
+<pre><code class="language-bash">! First copy your one-time code: 0EF9-D015
+- Press Enter to open github.com in your browser...
+</code></pre>
+<p>Select and copy the code (<code>0EF9-D015</code> in the example), then press <code>Enter</code>.</p>
+<p>Your browser will open and ask you to authorize GitHub CLI to use your GitHub account. Accept and wait a bit.</p>
+<p>Come back to the terminal, press <code>Enter</code> again, and that&#x27;s it.</p>
+<p>To check that you are properly connected, type:</p>
+<pre><code class="language-bash">gh auth status
+</code></pre>
+<p>✔️ If you get <code>Logged in to github.com as &lt;YOUR USERNAME&gt;</code>  then all good 👍</p>
+<p>For more info on gh:</p>
+<p><a href="https://cli.github.com/">GitHub CLI</a></p>
+<h2>rbenv</h2>
+<p>Let&#x27;s install <code>[rbenv](https://github.com/sstephenson/rbenv)</code>, a software to install and manage <code>ruby</code> environments.</p>
+<p>First, we need to clean up any previous Ruby installation you might have:</p>
+<pre><code class="language-bash">rvm implode &amp;&amp; sudo rm -rf ~/.rvm
+# If you got &quot;zsh: command not found: rvm&quot;, carry on. It means `rvm` is not
+# on your computer, that&#x27;s what we want!
+
+sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
+</code></pre>
+<p>⚠️ This command may prompt for your password.</p>
+<p>⚠️ When you type your password, nothing will show up on the screen, <strong>that&#x27;s normal</strong>. This is a security feature to mask not only your password as a whole but also its length. Just type your password and when you&#x27;re done, press <code>Enter</code>.</p>
+<p>In the terminal, run:</p>
+<pre><code class="language-bash">brew uninstall --force rbenv ruby-build
+exec zsh
+</code></pre>
+<p>Then run:</p>
+<pre><code class="language-bash">brew install rbenv
+</code></pre>
+<p>For more info on rbenv:</p>
+<p><a href="https://github.com/rbenv/rbenv">GitHub - rbenv/rbenv: Manage your app&#x27;s Ruby environment</a></p>
+<h2>Ruby</h2>
+<p>Now, you are ready to install the latest <a href="https://www.ruby-lang.org/en/">ruby</a> version and set it as the default version.</p>
+<p>Run this command, it will <strong>take a while (5-10 minutes)</strong></p>
+<pre><code class="language-bash">rbenv install 3.0.3
+</code></pre>
+<p>Once the ruby installation is done, run this command to tell the system to use the 3.1.2 version by default.</p>
+<pre><code class="language-bash">rbenv global 3.0.3
+</code></pre>
+<p><strong>Reset</strong> your terminal and check your Ruby version:</p>
+<pre><code class="language-bash">exec zsh
+</code></pre>
+<p>Then confirm the Ruby is install running:</p>
+<pre><code class="language-bash">ruby -v
+</code></pre>
+<p>For more info on Ruby:</p>
+<p><a href="https://ruby-doc.org/">Ruby-Doc.org</a></p>
+<h3>Gems</h3>
+<p>In the ruby world, we call external libraries <code>gems</code> they are pieces of ruby code that you can download and execute on your computer. Let&#x27;s install some!</p>
+<pre><code class="language-bash">gem install colored http pry-byebug rake rails rest-client rspec rubocop-performance
+</code></pre>
+<p>✔️ If you get <code>xx gems installed</code>, then all good 👍</p>
+<p>❌ If you encounter the following error:</p>
+<pre><code class="language-bash">ERROR: While executing gem ... (TypeError)
+incompatible marshal file format (can&#x27;t be read)
+format version 4.8 required; 60.33 given
+</code></pre>
+<p>Run the following command:</p>
+<pre><code class="language-bash">rm -rf ~/.gemrc
+</code></pre>
+<p>Rerun the command to install the gems.</p>
+<p>⚠️ <strong>NEVER</strong>
+ install a gem with <code>sudo gem install</code>! Even if you stumble upon a Stackoverflow answer (or the terminal) telling you to do so.</p>
+<p>For more info about Ruby Gems:</p>
+<p><a href="https://guides.rubygems.org/what-is-a-gem/">What is a gem? - RubyGems Guides</a></p>
+<h2>Node.js</h2>
+<p><a href="https://nodejs.org/en/">Node.js</a> is a JavaScript runtime to execute JavaScript code in the terminal. Let&#x27;s install it with <a href="https://github.com/nvm-sh/nvm">nvm</a>, a version manager for Node.js.</p>
+<p>In a terminal, execute the following commands:</p>
+<pre><code class="language-bash">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh
+exec zsh
+</code></pre>
+<p>Then run the following command:</p>
+<pre><code class="language-bash">nvm -v
+</code></pre>
+<p>You should see a version. If not, ask a teacher.</p>
+<p>Now let&#x27;s install node:</p>
+<pre><code class="language-bash">nvm install 16.13.1
+</code></pre>
+<p>When the installation is finished, run:</p>
+<pre><code class="language-bash">node -v
+</code></pre>
+<p>If you see <code>v16.15.1</code>, the installation succeeded ✔️ You can then run:</p>
+<pre><code class="language-bash">nvm cache clear
+</code></pre>
+<p>For more info on Node.js:</p>
+<p><a href="https://nodejs.org/en/docs/">Documentation | Node.js</a></p>
+<h2>yarn</h2>
+<p><code>[yarn](https://yarnpkg.com/)</code> is a package manager to install JavaScript libraries. Let&#x27;s install it:</p>
+<p>In a terminal, run the following commands:</p>
+<pre><code class="language-bash">npm install --global yarn
+exec zsh
+</code></pre>
+<p>Then run the following command:</p>
+<pre><code class="language-bash">yarn -v
+</code></pre>
+<p>For more info on yarn:</p>
+<p><a href="https://yarnpkg.com/">Home</a></p>
+<h2><strong><strong>PostgreSQL</strong></strong></h2>
+<p><a href="https://www.postgresql.org/">PostgreSQL</a>, an open-source robust and production-ready database system.</p>
+<p>Let&#x27;s install it now.</p>
+<p>Run the following commands:</p>
+<pre><code class="language-bash">brew install postgresql
+brew services start postgresql
+</code></pre>
+<p>Once you&#x27;ve done that, let&#x27;s check that it worked:</p>
+<pre><code class="language-bash">psql -d postgres
+</code></pre>
+<p>You should you see a new prompt like this one 👇</p>
+<pre><code class="language-bash">psql (14.4)
+Type &quot;help&quot; for help.
+
+postgres=#
+</code></pre>
+<h2>Redis Server</h2>
+<p>Running Ibex locally requires you to run a Redis server. Let’s set it up.</p>
+<p>First we need to install it:</p>
+<pre><code class="language-bash">brew install redis
+</code></pre>
+<p>Then we just run the server:</p>
+<pre><code class="language-bash">redis-server
+</code></pre>
+<p>For more info on Redis:</p>
+<h2>Heroku</h2>
+<p>Ibex is hosted in Heroku, so you are going to need the Heroku CLI. Let’s install it:</p>
+<pre><code class="language-bash">brew tap heroku/brew &amp;&amp; brew install heroku
+</code></pre>
+<p>To verify your CLI installation:</p>
+<pre><code class="language-bash">heroku --version
+</code></pre>
+<p>For more info on Heroku:</p>
+<p><a href="https://devcenter.heroku.com/categories/reference">Documentation</a></p>
+<h2>Remotes</h2>
+<p>Once you have clone the Ibex repos there is a few things you will need to set up.</p>
+<p>You will need to have at least two remotes, Staging &amp; Production in both the Client side and the Server side.</p>
+<p>To add a remote:</p>
+<pre><code class="language-bash">	heroku git:remote -a &lt;heroku-project-name&gt;
+</code></pre>
+<p>We recommend that you change the name of the remotes for something that you will remember:</p>
+<pre><code class="language-bash">git remote rename &lt;old-name&gt; &lt;new-name&gt;
+</code></pre>
+<p>For Example for our server side production remote:</p>
+<pre><code class="language-bash">heroku git:remote -a mountain-goat-server
+git remote rename mountain-goat-server production
+</code></pre>
+<h2>DataBase</h2>
+<p>You will also need to pull the database to be able to run Ibex locally:</p>
+<pre><code class="language-bash">heroku pg:pull DATABASE_URL goat_server_development -r heroku
+</code></pre><footer class="mt-24"><div class="flex flex-row items-center justify-between"><div><a class="text-lg font-medium p-4 -m-4 no-underline text-gray-600 hover:text-blue-600 flex items-center mr-2" title="Write docs" href="/how/write-docs"><svg height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="transform inline flex-shrink-0 rotate-180 mr-1"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Write docs</a></div><div><a class="text-lg font-medium p-4 -m-4 no-underline text-gray-600 hover:text-blue-600 flex items-center ml-2" title="About Ibex" href="/ibex/about">About Ibex<svg height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="transform inline flex-shrink-0 ml-1"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a></div></div><hr/><div class="mt-24 flex justify-between flex-col-reverse md:flex-row items-center md:items-end"><span class="text-gray-600">MIT <!-- -->2022<!-- --> © Goat Dev Docs.</span><div class="mt-6"></div><a class="text-sm" href="https://github.com/Ibex-CRM/Ibex-docs/blob/master/pages/how/set-laptop.mdx" target="_blank">Edit this page on GitHub</a></div></footer></main><div class="w-64 hidden xl:block text-sm pl-4"></div></article></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/how/set-laptop","query":{},"buildId":"QdK7a_iT10DovYx37JdED","assetPrefix":"/goat-dev-docs","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
