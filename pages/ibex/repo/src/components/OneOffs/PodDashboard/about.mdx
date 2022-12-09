@@ -1,0 +1,35 @@
+explain the folder structure of the section
+  - what each folder and file is for
+  - how do they connects
+  - how to add new files
+
+
+
+### Context
+- **App.js**:  Here I provide the UserContext to provide the user to the rest of the app
+- **UserContext.js**: This file creates said context to pass down when using the UseContext hook
+- **Peripheral components modified to accommodate the new feature**:
+  * **GoatStaffModal.js**: For the pod section we do not need the save and cancel btn, also small changes to style of the search bar in the modal
+  * **/OneOffs/_concerns_/oneOffRoutes.js**: Here we add the pod section to the sidebar in the user settings section.
+
+### All new files related to Pod Section
+This section is added inside the src/_components/OneOffs because the settings are located here and the side bar too. But, if in the future we need to move it (To use as general dashboard for example) we can take the /OneOffs/PodDashboard folder and move it as the feature is self contain within this folder. Some changes on imports and exports should be all that is needed.
+
+The next list of files will be a direct representation of the file structure and a brief explanation of what they content and how they connect. For more specific information check the code & comments. Or ask Me @Carlos-Diaz-07, I'll try to help if I remember anything 👴 🧠 🔥 .
+
+**/PodDashboard**:
+* **/_ concerns _**:
+      - **mutations.js**: Contains mutations
+      - **queries.js**: Contains queries
+* **/_ helpers _**:
+      - **handleListSearch.js**: The logic for the client and campaign search used for the PodSectionList shared component
+* **/_shared_components**:
+      - **PodSectionList.js**:  This component contains the multiple lists of clients & campaigns through out this section. The search bar only appears if there are items in the list. You need to pass a **handleSearch** for the **search functionality**, the **options** you want to see on the list, a **setSelectedOption** to handle the selection of one of those options, a **selectedOption** if you want to highlight an option from another component and a **listName** for the header.
+* **/PodInfoSection**:
+      - **ClientSelectionModal.js**:  This is the client management modal, it handles two mutations, adding and removing clients from a pod.
+      - **index.js**:  This component displays the pod information, including the crud actions for the pod leader. In this component, you'll find the add & remove pod members logic as well as the getGoatStaff query call and the handle for the search of the staff in the GoatStaffModal.js.
+* **CampaignDetails.js**: Displays the details of campaigns
+* **CampaignsWithErrors.js**:  We call a PodSectionList.js and it contains the logic for the search for this section.
+* **ClientDetails.js**: Displays the details of clients
+* **index.js**: Dashboard point of entry. useContext called to bring the user info. We also query the user's pod here and set all the necessary states to pass down.
+ * **PodClientsSelection.js**: This section contains the two main lists, clients and campaigns of that client for you to select.
