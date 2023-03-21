@@ -5,5 +5,10 @@
   "npmrc": ".npmrc",
   "jsconfig": "jsconfig",
   "semantic": "semantic",
-  "test-static": "test_static"
+  "test-static": "test_static",
+  "FErepo": {
+    "title": "FrontEnd",
+    "type": "page"
+
+  }
 }

@@ -56,6 +56,10 @@ export default {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>
   ),
+  sidebar: {
+     defaultMenuCollapseLevel: 1,
+     toggleButton: true,
+  },
   search: true,
   prevLinks: true,
   nextLinks: true,
