@@ -1,0 +1,107 @@
+### How to use IbexDropdown:
+
+- **The Dropdown usage**: needs at least these 3 props, optional props are explained further down
+
+```
+<IbexDropdown groups={groups} selectedOptions={filterSelected} setSelectedOptions={setFilterSelected} />
+```
+### Props
+#### ```Groups```
+You should send an array with objects, each object is a group with these keys.
+---**Label**: each group has a label that will be use on the for the dropdown menu, so you can have any name you want.
+---**Icon**: a FontAwesome component for the custom icon of that group.
+---**items**: An array of objects. This are the option people can select and you want to receive back on selectedOption It is important that the items have an id and a name.
+---**uniqSelect**: this **OPTIONAL** key stops users from being able to select multiple options from a groups, in this case we add the uniqSelect to Primary Tags so users will be able to select just **one** primary tag
+---**search**: this **OPTIONAL** key adds a search bar to the group, so users can search for options in that group. This is useful for large groups of options.
+---**range**: this **OPTIONAL** key adds a range min and max input fields to the group, so users can select a range of options in that group.
+```
+const groups = [
+    {
+      label: 'Primary Tags',
+      icon: <FontAwesomeIcon icon={faTag} />,
+      items: primaryTags,
+      uniqSelect: true
+    },
+    {
+      label: 'Tags',
+      icon: <FontAwesomeIcon icon={faTags} />,
+      items: tags
+    },
+    {
+      label: 'Verticals',
+      icon: <FontAwesomeIcon icon={faBullseye} />,
+      items: verticals
+    },
+    {
+      label: 'Platforms',
+      icon: <FontAwesomeIcon icon={faBullhorn} />,
+      items: platforms
+    },
+    {
+      label: 'Budget',
+      icon: <FontAwesomeIcon icon={faMoneyBill} />,
+      range: true,
+      items: [
+        { id: '1', name: 'min' },
+        { id: '2', name: 'max' }
+      ]
+    }]
+```
+### ```[selectedOptions, setSelectedOptions]```
+These let you know what options the user has clicked. When the dropdown sets a selected option it will send the item object as is. The dropdown also needs awareness of which options have been selected.
+
+### Results:
+ If we sent the above groups and the items look like so (showing just one for demo purposes):
+```
+options: [{
+    "__typename": "PrimaryTag",
+    "id": "115",
+    "name": "beauty"
+}]
+```
+
+> Note: The only required fields for the items are id & name the __typename has no use for the dropdown
+
+You will receive the exact same object back with and object key added, so you can add more keys to the object if you need to or use it however you need for your logic.
+
+```
+{
+    "__typename": "PrimaryTag",
+    "id": "115",
+    "name": "beauty"
+    "group": "beauty"
+}
+```
+
+The results are a bit different with range, the object is the same and we add the group key but also will have a vale key with the value inserted by the user:
+```
+{
+    "id": "1",
+    "name": "min"
+    "group": "Budget",
+    "value": "100"
+},
+{
+    "id": "2",
+    "name": "max"
+    "group": "Budget",
+    "value": "55000"
+}
+```
+
+### **Optional Props**:
+- **triggerComponent**: This is the icon or label, or both, that the user clicks to open the dropdown. You can pass a fontawesome component or a div with text and an Icon or any other component. Be careful passing a complex component, this can result in bugs.
+```triggerComponent={<FontAwesomeIcon icon={faFilterSlash} />}``` or ```triggerComponent={<div><p>Filter</p><FontAwesomeIcon icon={faFilterSlash} /></div>}```
+
+- **clearIcon**: This is the icon that the user clicks to clear the dropdown selections, pass a fontawesome component
+```clearIcon={<FontAwesomeIcon icon={faFilterSlash} />}```
+
+- **popupContent**: This is the text you want the user to see when hovering over, by default is 'Filter'. Accepts a string.
+
+-Then the dropdown would look like this. And search will be available.
+
+![Screenshot 2023-02-15 at 16 22 29](https://user-images.githubusercontent.com/72442639/219088604-5654aca0-daf5-460d-aa0d-3d2b112e8dcf.png)
+
+![Screenshot 2023-02-15 at 16 23 23](https://user-images.githubusercontent.com/72442639/219088770-2ba4f4d1-9ad0-4361-85c7-3495da2900df.png)
+
+![Screenshot 2023-02-15 at 16 23 53](https://user-images.githubusercontent.com/72442639/219088909-52f6bc3e-c0af-41b1-9205-455e6a1eaa31.png)
