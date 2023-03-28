@@ -8,12 +8,12 @@
 ### Props
 #### ```Groups```
 You should send an array with objects, each object is a group with these keys.
----**Label**: each group has a label that will be use on the for the dropdown menu, so you can have any name you want.
----**Icon**: a FontAwesome component for the custom icon of that group.
----**items**: An array of objects. This are the option people can select and you want to receive back on selectedOption It is important that the items have an id and a name.
----**uniqSelect**: this **OPTIONAL** key stops users from being able to select multiple options from a groups, in this case we add the uniqSelect to Primary Tags so users will be able to select just **one** primary tag
----**search**: this **OPTIONAL** key adds a search bar to the group, so users can search for options in that group. This is useful for large groups of options.
----**range**: this **OPTIONAL** key adds a range min and max input fields to the group, so users can select a range of options in that group. When adding range your items array should contain only 2 objects, one for min and one for max. The id should be 1 for min and 2 for max. The name can be whatever you want, we used min and max for demo purposes.
+- **Label**: each group has a label that will be use on the for the dropdown menu, so you can have any name you want.
+- **Icon**: a FontAwesome component for the custom icon of that group.
+- **items**: An array of objects. This are the option people can select and you want to receive back on selectedOption It is important that the items have an id and a name.
+- **uniqSelect**: this **OPTIONAL** key stops users from being able to select multiple options from a groups, in this case we add the uniqSelect to Primary Tags so users will be able to select just **one** primary tag
+- **search**: this **OPTIONAL** key adds a search bar to the group, so users can search for options in that group. This is useful for large groups of options.
+- **range**: this **OPTIONAL** key adds a range min and max input fields to the group, so users can select a range of options in that group. When adding range your items array should contain only 2 objects, one for min and one for max. The id should be 1 for min and 2 for max. The name can be whatever you want, we used min and max for demo purposes.
 ```
 const groups = [
     {
