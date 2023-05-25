@@ -62,7 +62,4 @@ export default {
     text: <>MIT {new Date().getFullYear()} © Goat Dev Docs.</>
   },
   faviconGlyph: '🐐',
-  images: {
-    unoptimized: true,
-  },
 }
