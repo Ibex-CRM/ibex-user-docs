@@ -13,10 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "@mdx-js/loader": "^2.1.5",
-    "next": "^12.1.0",
     "next-optimized-images": "^2.6.2",
-    "nextra": "^0.4.1",
-    "nextra-theme-docs": "^1.2.2",
+    "nextra": "^2.6.1",
+    "nextra-theme-docs": "^2.6.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-is": "^18.2.0"

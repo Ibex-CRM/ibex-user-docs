@@ -1,10 +1,8 @@
 export default {
   github: 'https://github.com/Ibex-CRM/Ibex-docs',
   docsRepositoryBase: 'https://github.com/Ibex-CRM/Ibex-docs/blob/master',
-  titleSuffix: ' – Goat Dev Docs',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Goat Dev Docs</span>
       <span className="text-gray-600 font-normal hidden md:inline">
       The Goat Agency's Dev Documentation
       </span>
@@ -60,11 +58,8 @@ export default {
      defaultMenuCollapseLevel: 1,
      toggleButton: true,
   },
-  search: true,
-  prevLinks: true,
-  nextLinks: true,
-  footer: true,
-  footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Goat Dev Docs.</>,
-  unstable_faviconGlyph: '🐐',
+  footer: {
+    text: <>MIT {new Date().getFullYear()} © Goat Dev Docs.</>
+  },
+  faviconGlyph: '🐐',
 }
