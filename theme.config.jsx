@@ -1,5 +1,4 @@
 export default {
-  github: 'https://github.com/Ibex-CRM/Ibex-docs',
   docsRepositoryBase: 'https://github.com/Ibex-CRM/Ibex-docs/blob/master',
   logo: (
     <>
