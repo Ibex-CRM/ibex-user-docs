@@ -12,7 +12,7 @@ export default {
       />
       <span className="text-gray-600 font-normal hidden md:inline">
         <strong>Ibex: </strong>
-        User Documetation
+        User Documentation
       </span>
     </>
   ),
