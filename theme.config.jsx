@@ -74,6 +74,9 @@ export default {
   footer: {
     component: <></>,
   },
+  navbar: {
+    extraContent: <div style={{width: '48px'}}></div>,
+  },
   faviconGlyph: '🐐',
   primaryHue: { dark: 23, light: 25 },
   primarySaturation: { dark: 85, light: 85 },
