@@ -72,7 +72,9 @@ export default {
     toggleButton: true,
   },
   footer: {
-    text: <>MIT {new Date().getFullYear()} © Ibex User Documentation.</>,
+    component: <></>,
   },
   faviconGlyph: '🐐',
+  primaryHue: { dark: 23, light: 25 },
+  primarySaturation: { dark: 85, light: 85 },
 }
