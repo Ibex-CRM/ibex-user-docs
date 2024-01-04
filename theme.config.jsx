@@ -75,7 +75,7 @@ export default {
     component: <></>,
   },
   navbar: {
-    extraContent: <div style={{width: '48px'}}></div>,
+    extraContent: <div style={{width: '25px'}}></div>,
   },
   faviconGlyph: '🐐',
   primaryHue: { dark: 23, light: 25 },
