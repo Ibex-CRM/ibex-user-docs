@@ -11,13 +11,13 @@ export default {
       />
       <span className="text-gray-600 font-normal hidden md:inline">
         <strong>Ibex: </strong>
-        User Documentation
+        Help Hub
       </span>
     </>
   ),
   head: (
     <>
-      <title>Ibex User Documentation</title>
+      <title>Welcome to Ibex User Documentation</title>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
