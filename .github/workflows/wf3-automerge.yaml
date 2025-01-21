@@ -1,0 +1,20 @@
+name: automerge
+# This automation is enabled only for the branches and workflows prepared for the design team. Should not be triggerd or used by the dev team.
+on:
+  push:
+    branches: [ update-to-docs ]
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      # LOG: "TRACE"
+
+    steps:
+      # - name: Show GitHub context
+      #   run: echo "${{ toJson(github) }}"
+      - id: automerge
+        name: automerge
+        uses: "pascalgn/automerge-action@v0.15.6"
