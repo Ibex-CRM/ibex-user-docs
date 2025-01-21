@@ -1,12 +1,8 @@
 name: Deploy to GitHub Pages
 # This automation is enabled only for the branches and workflows prepared for the design team. Should not be triggerd or used by the dev team.
 on:
-  workflow_run:
-    workflows: ["automerge"]
-    types:
-      - completed
-    branches:
-      - 'master'
+  push:
+    branches: [ master ]
 
 jobs:
   build:
