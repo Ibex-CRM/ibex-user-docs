@@ -1,5 +1,12 @@
 {
   "index": "Introduction",
-  "BenchmarkExplorer": "Benchmark Explorer",
+  "BenchmarkIndex": "Benchmark Index",
+  "PerformanceAnalyser": "Performance Analyser",
+  "DeliverablesCalculator": "Deliverables Calculator",
+  "ResourceRequest": "Resource Request",
+  "WorkflowPlatform": "Workflow Platform",
+  "ResourceManagement": "Resource Management",
+  "CampaignSearch": "Campaign Search",
+  "Industry&BrandInsights": "Industry & Brand Insights",
   "InfluencerSearch": "Influencer Search"
 }
