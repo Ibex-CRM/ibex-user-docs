@@ -1,20 +1,19 @@
 name: Deploy to GitHub Pages
-
+# This automation is enabled only for the branches and workflows prepared for the design team. Should not be triggerd or used by the dev team.
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /ibex-user-docs
+      NEXT_PUBLIC_BASE_PATH: /Cabra
 
     strategy:
       matrix:
         node-version: [16.x]
-
     steps:
       - name: Get files
         uses: actions/checkout@v4
