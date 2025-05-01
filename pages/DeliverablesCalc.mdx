@@ -1,5 +1,200 @@
-### Introduction
+import { Bleed } from 'nextra-theme-docs'
+import { Tabs } from 'nextra/components'
+import { Callout } from 'nextra-theme-docs'
 
-Generate deliverables for a campaign with the use of our benchmarks baked in!
+# Deliverables Calculator 3.0
+
+<Callout type="info">
+  **Introduction:** Generate deliverables for a campaign with the use of our benchmarks baked in!
+</Callout>
+
+Welcome to the Deliverables Calculator 3.0—a tool designed to make your campaign planning as smooth as a well-brewed cup of coffee (or tea, we don't judge). Whether you're crunching numbers for organic campaigns or diving into paid media budgets, this guide will help you navigate the calculator with ease—and maybe even crack a smile along the way.
+
+## Getting Started
+
+### Creating a New Calculator
+
+Open the Deliverables Calculator. Take a deep breath; you're about to become a spreadsheet wizard. 🧙‍♂️
+
+1. Click on 'New' to create a shiny new calculator.
+2. Fill in the following fields:
+   - Campaign Name: Give your campaign a name that's memorable—bonus points if it's punny!
+   - Source: Select whether the campaign is direct or agency-driven. (Hint: If you're unsure, just pick the one that feels right. We won't tell.)
+   - Brand Name: Choose the brand from the dropdown list or add a new one if necessary. Yes, you can be the hero who adds a new brand to the system. 🎉
+   - Organisation: Specify the parent organisation (if applicable).
+   - Market: Select the country where the campaign will run.
+
+Save your selections, and voilà—the sheet will populate with all the fields you need. It's like magic, but powered by formulas instead of wands.
+
+## Automation Setup
+
+### Enabling Automation Triggers
+
+Let's talk automation—because why do something manually when you can let the robots handle it? 🤖
+
+1. After creating a calculator, click the 'Allow Automation Triggers' button at the top of the sheet.
+2. A pop-up will appear; click 'Give Access' and complete the authorisation process. Don't worry, it's not asking for your Netflix password.
+3. Once authorised, click 'Give Access' again to activate the script.
+
+### What Automations Do
+
+Think of automations as your trusty sidekick—they swoop in to save the day when things get messy. Here's what they'll handle for you:
+
+- Currency Formatting: Updates currency formatting across the sheet based on the campaign currency selected in cell D6. No more wondering why everything looks like it's priced in pounds when you're working in euros.
+- Column/Row Hiding:
+  - Automatically hides unused columns and rows when 100% of the budget is allocated to a single market or activation.
+  - Flags budgets not equalling 100% in red (because nothing says "fix me" like a splash of crimson).
+  - Unhides sections automatically if changes are made to hidden trigger points.
+  - Hides Content Extend/DSP sections if no budget is assigned.
+- Deliverables Tab Cleanup: Hides unused sections of the 'Deliverables' tab via a trigger in cell A2 of the 'Deliverables Selector.'
+
+<Callout type="warning">
+  **Pro Tip:** If you skip the automation setup, the calculator will still work—but it might feel like driving a car without power steering. Costs will convert correctly, but currency formatting will default to GBP (£), regardless of the actual campaign currency.
+</Callout>
+
+## Budget Allocation
+
+### Setting Up Budgets
+
+This is where the magic happens—or at least where the spreadsheets start to look impressive enough to make your boss nod approvingly.
+
+Choose between:
+- Multiple Budget Options: Create multiple budgets with different allocations. Perfect for those "what if" scenarios that keep us up at night.
+- Single Budget with Multiple Activations: Allocate a single budget across various activations.
+
+Input your total campaign budget and specify the splits for:
+- Paid Media
+- Organic Media
+- Content Extend/DSP
+
+Adjust margins for paid and organic spend as needed. Remember, this is your chance to show off your budgeting prowess—don't hold back!
+
+## Organic Costings
+
+### Input Details
+
+Organic campaigns: where creativity meets analytics. Let's break it down:
+
+1. Select platforms for organic campaigns (e.g., Instagram, TikTok, YouTube).
+2. Input the number of influencers and content per influencer (e.g., reels, stories).
+3. Want 10 influencers posting 3 stories each? Done. Want 50 influencers doing interpretive dance on TikTok? Also doable.
+4. Use the Filtered Benchmarks dropdown to select CPM benchmarks for each type of content.
+5. If no benchmark exists, the system will flag it and use an alternative benchmark. Think of it as the calculator's way of saying, "Don't worry, I've got this."
+
+### Adjustments
+
+- Use scaling options to adjust CPM values (e.g., reduce by 5% for better value).
+- Add multipliers for complexity factors such as time of year, vertical nuances, or additional content requirements.
+
+## Paid Costings
+
+### Setup
+
+Paid campaigns: because sometimes you need to pay to play.
+
+1. Allocate budget across activations (e.g., Awareness, Engagement, Conversion).
+2. Select platforms for paid campaigns (e.g., Meta, TikTok, YouTube).
+3. Input flight times for each activation.
+
+### Benchmarks
+
+- Use the Filtered Benchmarks dropdown to select CPM benchmarks for paid campaigns.
+- Create custom benchmarks using the Benchmark Selector tab if necessary.
+
+### Adjustments
+
+- Apply subjective CPM adjustments or scale CPMs across budget options.
+
+## Benchmarks
+
+### Types of Benchmarks
+
+Let's talk benchmarks—the gold standard for ensuring your campaign doesn't go rogue.
+
+#### Paid Benchmarks: Structured as:
+- Country | Client | Audience Category | Optimisation | Quarter | Year
+- Example: US | Vimergy | Health & Wellness | Purchase | Q4 | 2024
+
+#### Organic Benchmarks: Structured as:
+- Country | Client | Vertical | Post Type | Year
+
+### Using Benchmarks
+
+- Recommended benchmarks are pre-filtered and available in dropdown lists.
+- Alternative benchmarks can be accessed via the Benchmarks Selector tab.
+
+### Custom Benchmarks
+
+Feeling adventurous? Build your own benchmarks:
+
+1. Navigate to the Benchmarks Selector tab.
+2. Build out benchmarks term-by-term or search for relevant terms.
+3. Selected benchmarks will appear at the top of the filtered dropdown list for easy access.
+
+## Deliverables Selector
+
+### Streamlining Deliverables
+
+This is where you decide what gets shown in the final deliverables tab. Think of it as Marie Kondo-ing your metrics—only keep what sparks joy (or client approval).
+
+- Use checkboxes to toggle specific deliverables, metrics, and costings.
+- Selecting a metric (e.g., Impressions) will automatically select its associated costing (e.g., CPM).
+- Mark deliverables as either Guaranteed or Estimated using the dropdown list.
+
+### Automating Deliverables Tab Cleanup
+
+Check the 'Completed' box in cell A2 to trigger automations that hide unused sections of the Deliverables tab.
+
+## Final Deliverables
+
+### Viewing Deliverables
+
+The final deliverables tab displays all guaranteed and estimated metrics side-by-side for comparison. Metrics include engagement rates, impressions, clicks, views, etc.
+
+### Exporting Deliverables
+
+Copy deliverables into presentations using the streamlined view provided in the calculator. Bonus points if you format them beautifully—clients love a good-looking table.
+
+## Additional Features
+
+### Event Costs
+
+Event costs can be added as a separate line item in the budget allocation section. Because sometimes you need to account for balloons, catering, and branded stress balls.
+
+### Tech Fees
+
+Tech fees can be applied as a percentage of media spend or total budget, depending on client requirements.
+
+## Troubleshooting & Feedback
+
+### Common Issues
+
+- Missing benchmarks: Use the Benchmark Selector tab to find or create relevant benchmarks.
+- Automation errors: Ensure the 'Allow Automation Triggers' button has been clicked and authorised.
+
+### Providing Feedback
+
+Have ideas for improvement? Want to suggest features like a "coffee break reminder"? Share feedback with the development team—we're all ears.
+
+## FAQs
+
+<Callout type="info">
+  **Q: How frequently are benchmarks updated?**  
+  A: Benchmarks are updated every two weeks. For urgent updates, contact the team to manually import specific benchmarks.
+</Callout>
+
+<Callout type="info">
+  **Q: Can I view breakdowns by territory?**  
+  A: Yes, the final deliverables tab will show breakdowns by territory when multiple markets are selected.
+</Callout>
+
+<Callout type="info">
+  **Q: What happens if automations aren't authorised?**  
+  A: The calculator will still function, but currency formatting will default to GBP (£), regardless of the actual campaign currency.
+</Callout>
+
+<Callout type="info">
+  With this guide in hand, you're ready to conquer the Deliverables Calculator 3.0 like a pro. Dive in, explore, and remember: spreadsheets may not be glamorous, but they sure are powerful. Happy calculating! 🚀
+</Callout>
 
 **Docs coming soon**

@@ -64,10 +64,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@napi-rs/simple-git-darwin-arm64@0.1.8":
+"@napi-rs/simple-git-darwin-x64@0.1.8":
   version "0.1.8"
-  resolved "https://registry.npmjs.org/@napi-rs/simple-git-darwin-arm64/-/simple-git-darwin-arm64-0.1.8.tgz"
-  integrity sha512-ufy/36eI/j4UskEuvqSH7uXtp3oXeLDmjQCfKJz3u5Vx98KmOMKrqAm2H81AB2WOtCo5mqS6PbBeUXR8BJX8lQ==
+  resolved "https://registry.npmjs.org/@napi-rs/simple-git-darwin-x64/-/simple-git-darwin-x64-0.1.8.tgz"
+  integrity sha512-Vb21U+v3tPJNl+8JtIHHT8HGe6WZ8o1Tq3f6p+Jx9Cz71zEbcIiB9FCEMY1knS/jwQEOuhhlI9Qk7d4HY+rprA==
 
 "@napi-rs/simple-git@^0.1.8":
   version "0.1.8"
@@ -91,10 +91,10 @@
   resolved "https://registry.npmjs.org/@next/env/-/env-12.3.4.tgz"
   integrity sha512-H/69Lc5Q02dq3o+dxxy5O/oNxFsZpdL6WREtOOtOM1B/weonIwDXkekr1KV5DPVPr12IHFPrMrcJQ6bgPMfn7A==
 
-"@next/swc-darwin-arm64@12.3.4":
+"@next/swc-darwin-x64@12.3.4":
   version "12.3.4"
-  resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.3.4.tgz"
-  integrity sha512-DqsSTd3FRjQUR6ao0E1e2OlOcrF5br+uegcEGPVonKYJpcr0MJrtYmPxd4v5T6UCJZ+XzydF7eQo5wdGvSZAyA==
+  resolved "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.3.4.tgz"
+  integrity sha512-PPF7tbWD4k0dJ2EcUSnOsaOJ5rhT3rlEt/3LhZUGiYNL8KvoqczFrETlUx0cUYaXe11dRA3F80Hpt727QIwByQ==
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"

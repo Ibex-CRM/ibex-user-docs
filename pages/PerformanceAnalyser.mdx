@@ -1,217 +1,121 @@
-import { Callout } from 'nextra/components'
+import { Bleed } from 'nextra-theme-docs'
+import { Tabs } from 'nextra/components'
+import { Callout } from 'nextra-theme-docs'
 
+# 🎯 Performance Analyser: Your Data Visualization Superpower
 
-### 1\. Introduction
-
-The Performance Analyser is a tool designed to provide campaign insights for a campaign or brand across both organic and paid channels. It allows users to analyse influencer performance, CPMs, CPAs, engagement rates, and other key metrics. While initially conceived as a PCA data visualisation tool, its capabilities extend far beyond that.
-
-  
-
-**Key Features:**
-
-*   Filtering by brand, campaign, platform, and post type.
-*   Adjustable time frame for data analysis.
-*   Comparison of different post types (e.g., TikTok vs. Instagram Reels).
-*   Custom graph creation for comparing various metrics (e.g., CPA vs. Engagement Rate).
-
-  
-
-**Use Cases:**
-
-*   Analysing the performance of a specific campaign.
-*   Comparing the performance of different influencers.
-*   Identifying trends in engagement rates across different platforms.
-*   Creating data visualisations for PCA presentations.
-
-  
-
-### 2\. Getting Started
-
-Once you're logged in, click on the "Performance Analyser" card within the dashboard.
-
-
-**Basic Workflow:**
-
-1. Filter data by brand and campaign.
-2. Adjust the time frame as needed.
-3. Filter by platform and post type.
-4. Analyse the data and create custom graphs as needed.
-
-  
-
-#### Feature 1: Campaign Code Filtering
-
-This feature allows you to filter the data displayed by specific brands and campaigns.
-
-  
-
-**Steps:**
-
-1. In the "Brand" dropdown menu, select the desired brand.
-2. In the "Campaign" dropdown menu, select the desired campaign. 
-3. The data will be updated to display only the influencers and metrics associated with the selected brand and campaign.
-
-  
-
-**Example:** To view data for the Mars Snickers' summer campaign:
-
-1. Select "Mars" from the "Brand" dropdown.
-2. Select "Snickers Summer Campaign" from the "Campaign" dropdown.
-
-  
-
-**Best Practices:** Use this feature to focus your analysis on specific campaigns of interest.
-
-  
-
-#### Feature 2: Time Frame Adjustment
-
-This feature allows you to adjust the time frame for the data displayed.
-
-  
-
-**Steps:**
-
-1. Use the date picker to select a start date and end date. 
-2. The data will be updated to display only the influencers and metrics within the selected time frame.
-
-  
-
-**Example:** To view data for the past year:
-
-1. Set the start date to one year ago from today.
-2. Set the end date to today.
-
-  
-
-**Best Practices:** Adjust the time frame to identify trends over time.
-
-  
-
-#### Feature 3: Platform and Post Type Filtering
-
-This feature allows you to filter the data by platform (e.g., Instagram, TikTok) and post type (e.g., Reels, Posts).
-
-  
-
-**Steps:**
-
-1. In the "Platform" dropdown menu, select the desired platform. 
-2. In the "Post Type" dropdown menu, select the desired post type. 
-3. The data will be updated to display only the influencers and metrics for the selected platform and post type.
-
-  
-
-**Example:** To compare TikTok posts against Instagram Reels:
-
-1. Select "TikTok" from the "Platform" dropdown and "Posts" from the "Post Type" dropdown.
-2. Note the performance metrics.
-3. Select "Instagram" from the "Platform" dropdown and "Reels" from the "Post Type" dropdown.
-4. Compare the performance metrics.
-
-  
-
-**Best Practices:** Use this feature to understand which platforms and post types are performing best for your campaigns.
-
-  
-
-#### Feature 4: Custom Graph Creation
-
-This feature allows you to create custom graphs to compare different metrics, such as CPA against engagement rate.
-
-  
-
-**Steps:** (Detailed steps will depend on the specific implementation of the graph creation feature)
-
-1. Click on the "Create Custom Graph" button. 
-2. Select the metrics you want to compare from the available options.
-3. Customize the graph settings (e.g., chart type, axis labels). 
-4. Click "Generate Graph." 
-
-  
-
-**Example:** To create a graph comparing CPA against engagement rate:
-
-1. Click "Create Custom Graph."
-2. Select "CPA" as the X-axis metric.
-3. Select "Engagement Rate" as the Y-axis metric.
-4. Click "Generate Graph."
-
-  
-
-**Best Practices:** Use custom graphs to visualize relationships between different metrics and identify areas for improvement.
-
-  
-
-### 3\. Example Scenarios
-
-#### Scenario 1: Analyzing Influencer Performance for a Specific Campaign:
-
-1. Select the relevant brand and campaign using the Campaign Code Filtering feature.
-2. Review the CPMs, CPAs, and engagement rates for each influencer.
-3. Identify the top-performing influencers and analyze their content to understand what is working well.
-
-  
-
-#### Scenario 2: Comparing Platform Performance:
-
-1. Use the Platform and Post Type Filtering feature to compare the performance of different platforms (e.g., Instagram vs. TikTok).
-2. Analyze the CPMs, CPAs, and engagement rates for each platform.
-3. Identify which platforms are providing the best return on investment.
-
-  
-
-### 4\. Data Sensitivity & Margin Considerations
-
-The Performance Analyser handles sensitive data, including influencer CPMs, CPAs, and engagement rates. This data is primarily for internal use.
-<Callout type="warning">
-  **Important:** The Performance Analyser handles sensitive data, including internal influencer and campaign cost pers. This data is for internal use without appropriate adjustments. Please ensure you have correct margins applied to any charts or data that you may use or show to clients.
+<Callout type="info">
+  **Pro Tip:** Think of the Performance Analyser as your personal data detective - it helps you uncover the mysteries of campaign performance across all channels!
 </Callout>
-  
 
-**Margin:** The default view displays data at a 0% margin.
-  
+The Performance Analyser is a tool designed to provide campaign insights for a campaign or brand across both organic and 
+paid channels. It allows users to analyse influencer performance, CPMs, CPAs, engagement rates, and other key metrics. While 
+initially conceived as a PCA data visualisation tool, its capabilities extend far beyond that.
 
-**Client Communication:** Be mindful of what information is shared with clients, especially in an undisclosed model where all data is based on internal costings without the correct margin applied. Always ensure the appropriate margin is applied before sharing costing data with clients.
+## 🎬 Quick Start Guide
 
-  
-### 5\. Exporting charts and graphs
-In order to export the charts and graphs from the performance analyser there are two requirements. A chrome extension that enables you to copy the SVG image of the chart and a design program to edit it. Our reccomendation is to use Figma as it makes it retains the proportions of the graph better than Adobe and there is a free tier that allows you to use the app with limited artboards. 
+<Bleed>
+    <iframe
+    src="https://insidemedia.sharepoint.com/:v:/r/sites/GoatResources/All%20Documents/8.%20Ibex/Training%20recordings/Performance%20Analyser%20Video_Cam.mp4?csf=1&web=1&e=ynKZxa&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTaGFyZVBvaW50RmlsZVZpZXdlciIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI5NmVkNjA2Ni1hMzIwLTQzYTAtOTY0Yy05MjVlY2EzMGM5MjAifX0%3D"
+    width="95%"
+    height="500"
+    title="Performance analyser walkthrough"
+/>
+</Bleed>
 
-#### Where to get the apps
-You can download Figma from Kandji that should be available from your computer [Figma on Kandji](kandji-self-service://library/items/20c3966d-fcbd-4ec3-9a7f-b041b2f453d4)
-The chrome extension required is [SVG 2 Clipboard](https://chromewebstore.google.com/detail/pacmblooebolmbakblffejfmhmnojece?utm_source=item-share-cb)
+## 🚀 What Can It Do?
 
-Once you have these downlaoded and installed, navigate to the performance analyser and to the campaign or view you want the charts from.
+The Performance Analyser is your Swiss Army knife for campaign insights. It started life as a humble PCA visualization tool but has evolved into a full-fledged data analysis powerhouse! Here's what it can do:
 
-Make sure the extension is active and on the chart right click and select 'Copy SVG (element)'. This will copy the chart to your clipboard.  
+* 🔍 Filter by brand, campaign, platform, and post type and more
+* ⏰ Analyze any time period you need
+* 📊 Compare different post types (TikTok vs. Instagram Reels, anyone?)
+* 📈 Create custom graphs to visualize any metric combination
 
-In Figma create a new design document and paste the chart into the document. You now have a copy of your chart that can be edited. Some of the formatting will look a little odd but there are a few simple steps to resolve this outlined in the followign video,
+## 🎯 Key Features
 
-**Video coming soon**
+### 1. Campaign Code Filtering 🎯
 
-### 6\. Troubleshooting & FAQs**
+**How to use it:**
+1. Pick your brand from the dropdown menu
+2. Select your campaign
+3. Watch the magic happen!
 
-**Q: Why is the data not updating after I select a brand and campaign?**
+**Example:** Want to see how Mars Snickers' summer campaign performed?
+- Select "Mars" → "Snickers Summer Campaign"
+- Voilà! All your data is ready to analyze
 
-**A:** Ensure that the selected brand and campaign have data available within the selected time frame.
+### 2. Time Frame Wizardry ⏰
 
-  
+**How to use it:**
+1. Use the date picker to set your time period
+2. The data updates instantly
 
-**Q: How do I add a new metric to the custom graph creation feature?**
+**Pro Tip:** Use this to spot trends over time - it's like having a crystal ball for your campaign performance!
 
-**A:** Contact the development team to request the addition of the new metric, provided the data is available in the system.
+### 3. Platform & Post Type Filtering 📱
 
-  
+**How to use it:**
+1. Choose your platform (Instagram, TikTok, etc.)
+2. Select your post type
+3. Compare away!
 
-### 6\. Feedback & Future Development
+**Example:** Want to know if TikTok posts outperform Instagram Reels?
+- Filter for TikTok posts → note the metrics
+- Switch to Instagram Reels → compare the numbers
+- Make data-driven decisions with confidence!
 
-The Performance Analyser is highly customizable. If there are any graphs or data points not currently accessible but needed, users can reach out to have those added, provided the data is in the system.
+### 4. Custom Graph Creation 📊
 
-  
+**How to use it:**
+1. Click "Create Custom Graph"
+2. Pick your metrics
+3. Customize your visualization
+4. Generate and analyze
 
-Plans are in place to create a client portal where clients can log in and access their data, excluding some costing data. This feature will be particularly beneficial for long-term clients.
+**Pro Tip:** This is where the real magic happens! Compare CPA against engagement rate, or any other metric combination that tickles your fancy.
 
-  
+## ⚠️ Important: Data Sensitivity
 
-The Performance Analyser is client-focused but internal facing for now, while the benchmark analysis provides industry-wide data over time. Using both together can provide powerful insights into how a brand is performing against industry standards.
+<Callout type="warning">
+  **Heads Up!** The Performance Analyser contains sensitive data about influencer costs and campaign performance. This is for internal eyes only! Always apply the correct margin before sharing any cost data with clients.
+</Callout>
+
+## 🖼️ Exporting Charts Like a Pro
+
+Want to make your charts look professional? Here's what you need:
+
+1. **Tools Required:**
+   - [Figma](kandji-self-service://library/items/20c3966d-fcbd-4ec3-9a7f-b041b2f453d4) (available on Kandji)
+   - [SVG 2 Clipboard](https://chromewebstore.google.com/detail/pacmblooebolmbakblffejfmhmnojece?utm_source=item-share-cb) Chrome extension
+
+2. **How to Export:**
+   - Right-click your chart
+   - Select 'Copy SVG (element)'
+   - Paste into Figma
+   - Edit and polish to perfection
+
+**Video tutorial coming soon!**
+
+## ❓ FAQ & Troubleshooting
+
+<Callout type="info">
+  **Q:** Why isn't my data updating?  
+  **A:** Check if you've selected a brand and campaign with available data in your chosen time frame.
+</Callout>
+
+<Callout type="info">
+  **Q:** Can new metrics be added if they are not visable?  
+  **A:** Absolutely! Just reach out to the development team - if the data exists, we can add it.
+</Callout>
+
+## 🔮 Future Developments
+
+We're always improving! Here's what's coming:
+- Client portal for secure data access
+- More customization options
+- Enhanced visualization tools
+
+<Callout>
+**Remember:** The Performance Analyser is your internal data powerhouse, while the benchmark analysis gives you industry-wide context. Use them together for maximum impact!
+</Callout>

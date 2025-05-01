@@ -1,144 +1,140 @@
-# Campaign Search Documentation
+import { Bleed } from 'nextra-theme-docs'
+import { Tabs } from 'nextra/components'
+import { Callout } from 'nextra-theme-docs'
 
-## 1. Getting Started
 
-#### Logging in and finding Campaign Search
+# 🔍 Campaign Search: Your Campaign Time Machine
 
-Campaign Search is situated within the Ibex 2.0 Dashboard, meaning you will need to log in using your Okta credentials to access the platform.
+<Callout type="info">
+  **Quick Start:** Think of Campaign Search as your personal campaign time machine - it lets you travel through Ibex's campaign history with just a few clicks! 🚀
+</Callout>
 
-Once logged in, head to the dashboard to find Campaign Search towards the bottom of the page.
+## 🗺️ Finding Your Way
+
+Campaign Search lives in the Ibex 2.0 Dashboard. After logging in with your Okta credentials, you'll find it waiting for you at the bottom of the dashboard page - like finding the last piece of chocolate in the box! 🍫
 
 ![image.png](https://res.cloudinary.com/goatagency/image/upload/v1743091476/Ibex%20Docs/app-dashboard_h4dl65.png)
 
-#### What is Campaign Search?
+## 🎯 What Makes Campaign Search Special?
 
-Campaign Search is your main access point for viewing all current and past campaigns that have been imported from campaign sheets.
+This tool is your comprehensive campaign archive, building on the foundation of the original Ibex platform with enhanced features and improved navigation. Think of it as your personal campaign librarian! 📚
 
-Many of you will have used the original Ibex platform, and may remember the previous version. The new Campaign Search acts as a successor to the original, adding usability and experience improvements, as well as increased functionality.
+### 🤔 Your Campaign Questions Answered
 
-#### What to use it for? 
+Campaign Search is designed to help you find answers to questions like:
+- 🏢 Which campaigns have we delivered for [brand name]?
+- 📊 What campaigns have we worked on in [specific vertical]?
+- 🌍 Which brands and campaigns have we executed in [territory]?
+- 👩‍🎨 Which creators did we collaborate with on [campaign name or ID]?
+- 🏷️ What brands and campaigns have we run within [product category]?
+- 📅 How many campaigns have we conducted between [start date] and [end date]?
+- 👋 Have we worked with [creator handle or name]?
 
-Use it to answer questions, get top level campaign information and direct links to the campaign sheet. Below are some examples of questions we have seeen in slack etc:
+<Callout type="info" emoji="🔍">
+  **Search Tip:** Looking to see if we've worked with a specific creator? Just type their handle or name in the search bar! 💪
+</Callout>
 
-- What campaigns have we delivered for [Insert brand]?  
-- What campaigns have we worked on in [insert vertical]?  
-- Which brands and campaigns have we executed in [insert territory]?  
-- What creators did we collaborate with on [insert campaign name or ID]?  
-- What brands and campaigns have we run within [insert product category]?  
-- How many campaigns have we conducted between [date] and [date]?
+## 🧭 Navigating Campaign Search
 
+### 📋 The Campaign Table
 
-All of the above can be answered quickly and easily using the available search box or via the filters.
+The campaign table is your primary view into Ibex's campaign history.- A magical scroll that never ends! ✨   
+It displays:
+- 📅 Campaigns in chronological order (newest first)
+- 🔄 Infinite scrolling for continuous browsing
+- 📊 Total result count at the bottom left
 
+### 📑 The Sidebar: Your Campaign Details Hub
 
-
-## 2. Exploring Campaigns
-
-#### Navigating the table and sidebar
-
-The campaign table displays key information about all current and past campaigns within Ibex. The table is sorted by default with the newest campaigns at the top.
-
-The table scrolls infinitely, so more campaigns will continue to appear as you scroll down. You can see the total number of results at the bottom left of the table area.
-
-Clicking on one of the table rows opens the sidebar, where you can find further details about the campaign, and a breakdown of the budget split, activations, and channels.
+Click any table row to open the sidebar, revealing:
+- 📊 Campaign overview
+- 🎬 Activation details
+- 📱 Channel information
+- 👥 Creator collaborations
 
 ![sidebars.png](https://res.cloudinary.com/goatagency/image/upload/v1743091476/Ibex%20Docs/sidebars_e5kp2b.png)
 
-The Overview, Activations and Channels sections of the sidebar
+### 🔍 Mastering the Search Bar
 
-#### Data Availability
+The search bar is your precision tool for finding specific campaigns 🔍  
+Use it to:
+1. 🔎 Search for text-based information:
+   - 🏢 Brand names
+   - 📝 Campaign titles
+   - 🌍 Territories
+   - 🎯 Objectives
+   - 📊 Verticals
 
-> All of the data used within this feature has been taken from the campaign sheets, so most of it should be familiar to you. This includes the lists and categories available within filters, such as the product categories, product type, and Verticals.  
->
-> Some fields in the table and sidebar will be blank or displayed as unavailable. This is where data has either not been input into the campaign sheets, has failed to import due to a validation error or is planned to be updated and imported with future revisions of the campaign data, sheet importer or the new campaign setup process.
+2. 👥 Find creators by:
+   - 📱 Channel handle
+   - 👤 Display name
+   - 📧 Email address
 
-#### Using the search bar
+<Callout type="info">
+  **Search Strategy:** Use the search bar for specific identifiers and the filtering system for broader categories - it's like having both a microscope and a telescope! 🔬🔭
+</Callout>
 
-The search bar lives above the campaign table and can be used in a couple of different ways:
+### 🎛️ The Power of Filters
 
-   1. Search for any non-numerical data e.g. brand, campaign name, territory, objective, vertical etc.
-   2. Search for a specific creator; this can be done using either the creator channel handle, the creator display name (eg Wendy Barker), or the creator's email address.
+1. Search for non-numerical data (e.g., brand, campaign name, territory, objective, vertical)
+2. Search for specific creators using their:
+   - Channel handle
+   - Display name (e.g., Wendy Barker)
+   - Email address
 
-The search bar is most effective when used to quickly search for something specific (campaign name, campaign code, brand, or anything unique). For broader categories (beauty, brand awareness), it will not be as accurate as using the filtering system, as some terminology lives within multiple categories (e.g., beauty lives within verticals and product categories).
+The search bar works best for finding specific items (campaign names, codes, brands, or unique identifiers). For broader categories (beauty, brand awareness), the filtering system is more effective as some terms appear in multiple filters (e.g., beauty appears in both verticals and product categories).
 
 #### Filtering and sorting
 
-Many of the table columns have a sort function, denoted by the chevron icon to the right of a column header. By default, the table is sorted by date, most recent first.
+Most table columns can be sorted using the chevron icon next to the column header. By default, the table sorts by date (newest first).
 
-The filters can be accessed by pressing the filter button, to the right of the search bar. There are 11 filter groups, most of which contain 1 to 2 filters and an AND/OR toggle.
+Access the filters by clicking the filter button to the right of the search bar. There are 11 filter groups, each containing 1-2 filters and an AND/OR toggle that can be used to tune the specificity of the results.
 
 ![Screenshot 2025-03-19 at 16.07.49.png](https://res.cloudinary.com/goatagency/image/upload/v1743091476/Ibex%20Docs/campaign-search_pk4ti7.png)
 
-   > Access the 11 filter groups within the sidebar by using the filter button highlighted in blue.
+<Callout type="info">
+  **Filter Tip:** AND filters create precise matches (like finding a needle in a haystack), while OR filters broaden your search (casting a wide net). Choose based on your needs! 🎣
+</Callout>
 
-You will see the table change dynamically as you apply filters within the sidebar.
+## 📊 Data Insights
 
-By default, within each filter section the AND/OR toggle is set to AND, meaning the results surfaced in the table will be a match for every filter you have applied.
+<Callout type="warning">
+  **Data Note:** All information and data comes from campaign sheets. Blank fields may indicate:
+  - 📝 Missing data in sheets
+  - ❌ Import validation errors
+  - 🔄 Space for planned updates
+</Callout>
 
-![image.png](https://res.cloudinary.com/goatagency/image/upload/v1743091476/Ibex%20Docs/campaign-search-filter_gtu0bx.png)
+## 💡 Contributing to Campaign Search
 
-   > A filter block with the AND/OR toggle at it's default position
+### 📢 Share Your Experience
 
-Keep in mind that each filter applied can significantly reduce the amount of results surfaced, when AND is applied.
+Help us improve Campaign Search through:
+1. 📧 Email: *ibex.support@goatagency.com*
+2. 💬 [Ibex Support Slack channel](https://thegoatagency.slack.com/archives/C089WQJ69LM)
+3. 🐛 [Bug Report Form](/FeedbackForms/bugs.mdx)
+4. 💡 [Feature Request Form](/FeedbackForms/feedback.mdx)
 
-If you wish to perform a broader search, where campaigns returned can be a partial match, you can set the toggle to OR for the variables you wish this to apply to.
+### 🚀 What's Next for Campaign Search
 
----
+Upcoming enhancements include:
+- ✅ Campaign sheet import error display
+- ✅ Campaign sheet data reimport functionality
+- 🔄 Filter refinement
+- ℹ️ Description tooltips
 
-## 4. User Feedback Process
+<Callout type="info">
+  **Feedback Impact:** Your suggestions directly influence our development priorities. The more users report similar needs, the higher they climb on our roadmap - it's like voting for your favorite feature! 🗳️
+</Callout>
 
-#### How to submit feedback
+### 🔄 Our Feedback Process
 
-There are three ways to submit feedback:
+1. 📥 All feedback reaches our development team
+2. ⚡ Urgent issues receive immediate attention
+3. 📅 Regular reviews occur bi-weekly
+4. 📢 Updates are communicated via the Ibex newsletter
 
-   - For general feedback and enquiries, email *ibex.support@goatagency.com* or use our [ibex-support slack channel](https://thegoatagency.slack.com/archives/C089WQJ69LM)
-   - [Bug Report Form](https://forms.clickup.com/2641216/f/2gka0-48912/POFFP0OUCEF62VAPII) - for when you've encountered any bugs, or something's not working as expected
-   - [Product Feature Request Form](https://forms.clickup.com/2641216/f/2gka0-48232/C3VGG0FH9I7IBUK4W6) - for new feature requests and suggestions on how to improve the platform
-
-#### Types of feedback that are most helpful
-
-- Giving a detailed description of the issue you faced, specifying where and how it happened, what device and browser you were using, and include steps to reproduce the error if possible. Include screenshots, sketches or supporting documentation where possible.
-- Reporting when data seems inaccurate, either within the campaign table or the sidebar (use the [Bug Report Form](https://forms.clickup.com/2641216/f/2gka0-48912/POFFP0OUCEF62VAPII))
-- Highlighting any features or areas of the platform that are creating friction within your working process.
-- A detailed explanation of a feature or update that will positively impact the team or improve the workflow/lifecycle of campaign strategy, planning, delivery and reporting.
-- New ideas or processes that are currently carried out by the team but could be improved through an addition or update to the
-- How feedback is processed
-- Timeline for response/implementation
-- How to report bugs vs. suggest improvements
-
----
-
-## 5. Future Development Roadmap
-
-#### Planned enhancements
-
-- Display campaign sheet import errors
-- Button for reimporting campaign sheet data
-- Refinement of filter dropdown options 
-- Information tooltips for filter descriptions
-
-#### Feature prioritisation process
-
- <ol>
-    <li>All bugs and feature requests are sent directly to the development and product team</li>
-    <li>Urgent fixes are actioned as soon as possible</li>
-    <li>All other feedback and bugs are reviewed bi-weekly</li>
-    <li>Updates and fixes are published and sent out in the Ibex newsletter</li>
- </ol>
-
-
-#### How user feedback influences the roadmap
-
-All submissions and suggestions can influence the prioritisation and direction of the roadmap. We encourage everyone to share their frustrations, issues, and ideas. We thrive on this kind of feedback to ensure we provide you with the best possible experience. If the same or a similar issue arises frequently among many users, this will enhance the likelihood of prioritising topics planned for the next phase of work.
-
-While we will make every effort to consider, explore, and respond to suggestions, our small team works on updates, bugs, data, QA, integrations, and new product development, which means our capabilities are limited. If your suggestion is urgent or presents a significant impact, please submit the idea and contact us to discuss it further.
-
----
-
-## 6. FAQ & Troubleshooting
-
-- Frequently asked questions and answers
-- Solutions for common issues
-- Tips for optimising performance 
-- Known limitations and possible workarounds
+<Callout type="info">
+  **Pro Tip:** Detailed feedback helps us understand and address your needs more effectively. Don't hesitate to share your thoughts - we're all ears! 👂
+</Callout>
 
