@@ -2,7 +2,7 @@ import { Bleed } from 'nextra-theme-docs'
 import { Tabs } from 'nextra/components'
 import { Callout } from 'nextra-theme-docs'
 
-# 🎯 Performance Analyser: Your Data Visualization Superpower
+# 🎯 Performance Analyser: Your Data Visualisation Superpower
 
 <Callout type="info">
   **Pro Tip:** Think of the Performance Analyser as your personal data detective - it helps you uncover the mysteries of campaign performance across all channels!
@@ -12,25 +12,16 @@ The Performance Analyser is a tool designed to provide campaign insights for a c
 paid channels. It allows users to analyse influencer performance, CPMs, CPAs, engagement rates, and other key metrics. While 
 initially conceived as a PCA data visualisation tool, its capabilities extend far beyond that.
 
-## 🎬 Quick Start Guide
-
-<Bleed>
-    <iframe
-    src="https://insidemedia.sharepoint.com/:v:/r/sites/GoatResources/All%20Documents/8.%20Ibex/Training%20recordings/Performance%20Analyser%20Video_Cam.mp4?csf=1&web=1&e=ynKZxa&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTaGFyZVBvaW50RmlsZVZpZXdlciIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI5NmVkNjA2Ni1hMzIwLTQzYTAtOTY0Yy05MjVlY2EzMGM5MjAifX0%3D"
-    width="95%"
-    height="500"
-    title="Performance analyser walkthrough"
-/>
-</Bleed>
 
 ## 🚀 What Can It Do?
 
-The Performance Analyser is your Swiss Army knife for campaign insights. It started life as a humble PCA visualization tool but has evolved into a full-fledged data analysis powerhouse! Here's what it can do:
+The Performance Analyser is your Swiss Army knife for campaign insights. It started life as a humble PCA visualisation tool but has evolved into a full-fledged data analysis powerhouse! Here's what it can do:
 
 * 🔍 Filter by brand, campaign, platform, and post type and more
-* ⏰ Analyze any time period you need
+* ⏰ Analyse any time period you need
 * 📊 Compare different post types (TikTok vs. Instagram Reels, anyone?)
-* 📈 Create custom graphs to visualize any metric combination
+* 📈 Create custom graphs to visualise any metric combination
+* 📋 View all posts and ads data in a raw format
 
 ## 🎯 Key Features
 
@@ -38,11 +29,11 @@ The Performance Analyser is your Swiss Army knife for campaign insights. It star
 
 **How to use it:**
 1. Pick your brand from the dropdown menu
-2. Select your campaign
+2. Search or select your campaign using the campaign code
 3. Watch the magic happen!
 
-**Example:** Want to see how Mars Snickers' summer campaign performed?
-- Select "Mars" → "Snickers Summer Campaign"
+**Example:** Want to see how Mars Snickers' Euro campaign performed?
+- Locate the campaign code for "Mars" → "Snickers Euro Campaign" (There is [a handy tool for that](https://ibex.goatagency.com/campaign-search) 😉) and select that from campaign code dropdown
 - Voilà! All your data is ready to analyze
 
 ### 2. Time Frame Wizardry ⏰
@@ -56,24 +47,38 @@ The Performance Analyser is your Swiss Army knife for campaign insights. It star
 ### 3. Platform & Post Type Filtering 📱
 
 **How to use it:**
-1. Choose your platform (Instagram, TikTok, etc.)
-2. Select your post type
+1. Choose your platforms (Instagram, TikTok, etc.)
+2. Select your post types
 3. Compare away!
 
 **Example:** Want to know if TikTok posts outperform Instagram Reels?
-- Filter for TikTok posts → note the metrics
-- Switch to Instagram Reels → compare the numbers
+- Filter for Post Types of TikTok posts and Instagram reels → The charts give you a quick picture to compare the performance
 - Make data-driven decisions with confidence!
 
-### 4. Custom Graph Creation 📊
+### 4. Combo Graph Creation 📊
 
 **How to use it:**
-1. Click "Create Custom Graph"
+1. Scroll down to the combo graph section
 2. Pick your metrics
-3. Customize your visualization
-4. Generate and analyze
+3. Wait for the charts to update and analyze 👍
 
-**Pro Tip:** This is where the real magic happens! Compare CPA against engagement rate, or any other metric combination that tickles your fancy.
+### 5. Raw post and ads data **NEW**
+Two additional tabs are now available within the performance analyser, the Post Search and Ad search.  
+These allow you to dive even deeper into understanding the data available against each campaign Post and Ad. Displayed in a raw format data table, this gives a view of every available (or unavailable) data point for any given Post or Ad. This is like a backstage pass to the information displayed within the other views. Something look a little off? Not seeing data you expected to be there? You can now interrogate what lies beneath. It also provides a space for data to be downloaded for further analysis and deeper insight work.
+
+**How do I export the data I hear you ask.** 
+Once you have your filters applied look for the three dots on the right between the filters and the data table. 
+- Open the menu
+- select download
+- choose your format 
+- **and away you go!**
+
+
+<Callout type="info">
+  If you find data anomalies or are using this feature to do repetitive work let us know and we can add these into the main dashboard!
+</Callout>
+
+
 
 ## ⚠️ Important: Data Sensitivity
 
@@ -83,18 +88,23 @@ The Performance Analyser is your Swiss Army knife for campaign insights. It star
 
 ## 🖼️ Exporting Charts Like a Pro
 
-Want to make your charts look professional? Here's what you need:
+Want to export and make your charts look professional? Here's what you need:
 
+Install the required chrome extension and Figma (Design program)
 1. **Tools Required:**
    - [Figma](kandji-self-service://library/items/20c3966d-fcbd-4ec3-9a7f-b041b2f453d4) (available on Kandji)
    - [SVG 2 Clipboard](https://chromewebstore.google.com/detail/pacmblooebolmbakblffejfmhmnojece?utm_source=item-share-cb) Chrome extension
 
 2. **How to Export:**
+   - Ensure you have the extension running in chrome
    - Right-click your chart
    - Select 'Copy SVG (element)'
    - Paste into Figma
    - Edit and polish to perfection
 
+<Callout type="warning">
+  **Gotcha Moment** The SVG 2 Clipboard is a great tool but when you copy a chart it does **not** include the ledgend 😔 so you will need to re-create that in the design.
+</Callout>
 **Video tutorial coming soon!**
 
 ## ❓ FAQ & Troubleshooting
@@ -113,8 +123,8 @@ Want to make your charts look professional? Here's what you need:
 
 We're always improving! Here's what's coming:
 - Client portal for secure data access
-- More customization options
-- Enhanced visualization tools
+- More customisation options
+- Enhanced visualisation tools
 
 <Callout>
 **Remember:** The Performance Analyser is your internal data powerhouse, while the benchmark analysis gives you industry-wide context. Use them together for maximum impact!
